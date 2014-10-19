@@ -6,7 +6,235 @@
 		<meta name="keywords" content="Imène R. Goumiri, Imène, Goumiri, Princeton University, MAE, PPPL, Clancy Rowley, David Gates, control, plasma, fusion, tokamak">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Imène Goumiri – Ph.D. Student – Princeton</title>
-		<link rel="stylesheet" href="css/main.css">
+		<style>
+		/* Background: http://subtlepatterns.com/old-wall/
+		Color palette: http://www.colourlovers.com/palette/871636/A_Dream_in_Color */
+
+		body {
+			color: #222;
+			font-family: Arial, serif;
+			line-height: 1.25;
+			max-width: 55rem;
+			margin: auto;
+			padding: 0;
+			background: url('img/old_wall.png');
+			font-size: 1.05rem;
+		}
+
+		header {
+			height: 12em;
+			background: center 30% / 100% url('img/imene.jpg') no-repeat;
+			color: white;
+			text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+			padding: 1rem;
+			border-top: 1.5rem solid #1b676b;
+		}
+
+		header > h1 {
+			font-size: 2.4em;
+			margin: 0;
+		}
+
+		header > p {
+			font-size: 1.5em;
+			margin: 0;
+		}
+
+		#contact {
+			font-size: 1.2em;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 1rem;
+			box-sizing: border-box;
+		}
+
+		dl {
+			margin: 0;
+		}
+
+		dt {
+			margin: 0 1rem 0 0;
+			float: left;
+		}
+
+		#contact a {
+			color: #fff;
+		}
+
+		#contact a:hover {
+			text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+		}
+
+		h2, a {
+			color: #519548;
+		}
+
+		a:hover {
+			color: #88c425;
+		}
+
+		a:active, a:focus {
+			color: #bef202;
+		}
+
+		section, header {
+			border-top: 1.5rem solid #1b676b;
+			box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+			position: relative;
+		}
+
+		section {
+			padding: 0 0.75em 1.5rem;
+			background: #fff;
+		}
+
+		#intro {
+			padding-bottom: 2rem;
+			line-height: 1.4;
+		}
+
+		aside {
+			position: absolute;
+			bottom: 0;
+			right: 0.25rem;
+		}
+
+		aside img {
+			height: 2.5rem;
+			padding: 0.25em;
+		}
+
+		ul {
+			margin: 0.5em 0 1.5em;
+		}
+
+		li {
+			padding: 0.25em 0;
+		}
+
+		h3 {
+			text-align: center;
+			font-size: 0.9em;
+			margin: 0;
+		}
+
+		.me {
+			font-weight: bold;
+		}
+
+		.title {
+			font-style: italic;
+		}
+
+		.title:before {
+			content: "“";
+			padding-right: 0.1em;
+		}
+
+		.title:after {
+			content: "”";
+			padding-left: 0.1em;
+		}
+
+		footer {
+			clear: both;
+			text-align: center;
+			font-size: 0.9em;
+			color: #aaa;
+			padding: 4rem 0.1rem 0;
+		}
+
+		footer a {
+			color: #999;
+			background: url('img/love.png') no-repeat 0 / 1.05em;
+			padding: 0.1em 0 0.1em 1.3em;
+		}
+
+		footer a:hover {
+			color: #888;
+		}
+
+		footer a:active {
+			color: #777;
+		}
+
+		@media only screen and (min-width: 35rem) {
+			body {
+				font-size: 1.15rem;
+			}
+			header {
+				height: 20rem;
+			}
+			header > h1 {
+				font-size: 3.5rem;
+			}
+			header > p {
+				font-size: 2.5rem;
+				}""
+		}
+
+		@media only screen and (min-width: 45rem) {
+			body {
+				font-size: 1.2rem;
+			}
+		}
+
+		@media only screen and (min-width: 55rem) {
+			body {
+				font-size: 1.3rem;
+			}
+			header {
+				height: 24rem;
+			}
+			header > h1 {
+				font-size: 4rem;
+			}
+			header > p {
+				font-size: 3rem;
+			}
+		}
+
+		@media (-o-min-device-pixel-ratio: 5/4),
+		       (-webkit-min-device-pixel-ratio: 1.25),
+		       (min-resolution: 120dpi) {
+			body {
+				background: url('img/old_wall_@2X.png') 0 / 300px;
+			}
+		}
+
+		@media print {
+			*, *:before, *:after {
+				background: transparent !important;
+				color: #000 !important;
+				box-shadow: none !important;
+				text-shadow: none !important;
+			}
+			header {
+				height: 14rem;
+			}
+			#contact {
+				margin-top: 0;
+			}
+			aside {
+				display: none;
+			}
+			a, a:visited {
+				text-decoration: underline;
+			}
+			a[href]:after {
+				content: " (" attr(href) ")";
+			}
+			p, h2, h3 {
+				orphans: 3;
+				widows: 3;
+			}
+			h2, h3 {
+				page-break-after: avoid;
+			}
+		}
+		</style>
 	</head>
 	<body>
 		<header>
@@ -25,7 +253,7 @@
 			<section id="intro">
 				<aside>
 					<a href="http://www.princeton.edu/"><img src="img/Princeton.svg" alt="Princeton University logo" title="Princeton University"></a>
-					<a href="http://www.pppl.gov/"><img src="img/PPPL.png" alt="Princeton Plasma Physics Laboratory logo" title="PPPL"></a>
+					<a href="http://www.pppl.gov/"><img src="img/PPPL.svg" alt="Princeton Plasma Physics Laboratory logo" title="PPPL"></a>
 				</aside>
 				<p>
 					I am a fifth year Ph.D. student at <a href="http://www.princeton.edu/">Princeton University</a>.
